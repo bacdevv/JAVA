@@ -1,0 +1,25 @@
+package week9.lesson6;
+
+import java.time.LocalDate;
+
+public abstract class Book {
+	protected String code;
+	protected LocalDate dayImport;
+	protected double price;
+	protected int quantity;
+	protected String publisher;
+	protected Status bookStatus;
+	
+	public Book(String code, LocalDate dayImport, double price, int quantity,
+			String publisher, Status bookStatus) {
+		super();
+		this.code = code;
+		this.dayImport = dayImport;
+		this.price = price;
+		this.quantity = quantity;
+		this.publisher = publisher;
+		this.bookStatus = bookStatus;
+	}
+	
+	
+}

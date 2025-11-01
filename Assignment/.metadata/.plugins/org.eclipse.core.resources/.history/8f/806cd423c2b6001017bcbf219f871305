@@ -1,0 +1,9 @@
+package week9.lesson6;
+
+import java.time.LocalDate;
+
+public class Test {
+	public static void main(String[] args) {
+		TextBook tb1 = new TextBook("TB01", LocalDate.of(2025, 07, 30), 150000, 10, "Kim Dong", Status.NEW);
+	}
+}

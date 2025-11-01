@@ -1,0 +1,4 @@
+Error Stream.
+Error Stream.
+java.lang.ArithmeticException: / by zero
+	at example.p11_handling_io.StandardStreamExample.main(StandardStreamExample.java:30)

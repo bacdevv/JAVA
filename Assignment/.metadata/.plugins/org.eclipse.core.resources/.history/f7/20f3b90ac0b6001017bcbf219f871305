@@ -1,0 +1,8 @@
+package week9.lesson6;
+
+import java.time.LocalDate;
+
+public abstract class Book {
+	protected String code;
+	protected LocalDate dateInput;
+}

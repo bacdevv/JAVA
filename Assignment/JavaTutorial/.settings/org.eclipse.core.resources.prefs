@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/example/p20_multithreading/basic/CountdownLatchThread.java=UTF-8
+encoding//src/example/p20_multithreading/basic/DaemonThread.java=UTF-8
+encoding//src/example/p20_multithreading/basic/Main.java=UTF-8
+encoding//src/example/p20_multithreading/basic/PoolThread.java=UTF-8
+encoding//src/example/p20_multithreading/basic/Synchronization.java=UTF-8
+encoding//src/example/p20_multithreading/basic/TestCallableFuture.java=UTF-8
+encoding//src/example/p20_multithreading/deadlock/Runner.java=UTF-8
+encoding//src/example/p20_multithreading/lock/Runner.java=UTF-8
+encoding//src/example/p20_multithreading/message/MessageReceiver.java=UTF-8
+encoding//src/example/p20_multithreading/message/MessageSender.java=UTF-8
+encoding//src/example/p20_multithreading/message/TestMessageThread.java=UTF-8
+encoding//src/example/p20_multithreading/semaphore/TestConnect.java=UTF-8
+encoding/<project>=UTF-8

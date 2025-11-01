@@ -1,0 +1,67 @@
+package week9.lesson6;
+
+import java.time.LocalDate;
+
+import javax.management.RuntimeErrorException;
+
+public abstract class Book {
+	protected final String code;
+	protected LocalDate dayImport;
+	protected double price;
+	protected int quantity;
+	protected String publisher;
+	
+	public abstract double totalPrice();
+	
+	public Book(String code, LocalDate dayImport, double price, int quantity,
+			String publisher) {
+		
+		if (code == null || code.trim().isEmpty())
+			throw new IllegalArgumentException("Code is not be empty");
+		
+		this.code = code;
+		this.dayImport = dayImport;
+		this.price = price;
+		this.quantity = quantity;
+		this.publisher = publisher;
+	}
+
+	public LocalDate getDayImport() {
+		return dayImport;
+	}
+
+	public void setDayImport(LocalDate dayImport) {
+		this.dayImport = dayImport;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public String getPublisher() {
+		return publisher;
+	}
+
+	public void setPublisher(String publisher) {
+		this.publisher = publisher;
+	}
+
+	public String getCode() {
+		return code;
+	}
+	
+	
+	
+}

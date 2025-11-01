@@ -1,0 +1,33 @@
+# Shortcuts in Eclipse
+
+---
+
+- Focus (hover) code: `F2`
+- Quick Assist: `Ctrl` `1`
+- Content Assist: `Ctrl` `Space`
+- Single-line Comment: `Ctrl` `/`
+- Muti-line Comment: `Ctrl` `Shift` `/ ?`
+- Move Statement: `Alt` `Up` / `Down`
+- Duplicate Statement: `Ctrl` `Alt` `Up` / `Down`
+- Inscrease/Descrease font size in code editor:`Ctrl` `=` / `-`
+
+---
+
+- Windows > Show View | Perspective | Preferences
+- Preferences > Java > Code Style > Code Templates...
+- Preferences > Java > Installed JRE...
+- Preferences > General > Editors > Autosave...
+- Preferences > General > Workspace > Text file encoding: UTF-8
+- Preferences > General > Appearance > Theme...
+
+---
+
+- Show in File Explorer: RightClick > Show In > System Explorer
+- Generate code: RightClick > Source...
+- Generate Javadoc: Menu > Project > Generate Javadoc...
+- Rename package/file: RightClick > Refactor...
+- Add Project: Import Project > General > Existing Projects in Workspace...
+- CMDLine Arguments: RightClick > Run As > Run Configurations > Java Application > Arguments Tab...
+- Export JAR file: RightClick on Project > Export > Java...
+
+---

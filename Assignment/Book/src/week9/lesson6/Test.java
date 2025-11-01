@@ -1,0 +1,19 @@
+package week9.lesson6;
+
+import java.time.LocalDate;
+
+public class Test {
+	public static void main(String[] args) {
+		TextBook tb1 = new TextBook("TB01", LocalDate.of(2025, 7, 30), 150000, 10, "Kim Dong", Status.NEW);
+		TextBook tb2 = new TextBook("TB02", LocalDate.of(2024, 8, 28), 150000, 10, "Tay Do", Status.OLD);
+		
+		System.out.println(tb1);
+		System.out.println(tb2);
+		
+		ReferenceBook rb1 = new ReferenceBook("TB01", LocalDate.of(2025, 7, 30), 150000, 10, "Kim Dong", 10);
+		ReferenceBook rb2 = new ReferenceBook("TB02", LocalDate.of(2024, 8, 28), 150000, 10, "Tay Do", 8);
+		
+		System.out.println(rb1);
+		System.out.println(rb2);
+	}
+}

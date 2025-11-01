@@ -1,0 +1,33 @@
+package week9.lesson6;
+
+import java.time.LocalDate;
+
+public class TextBook extends Book {
+	private Status bookStatus;
+
+	public TextBook(String code, LocalDate dayImport, double price, int quantity, String publisher, Status bookStatus) {
+		super(code, dayImport, price, quantity, publisher);
+		this.bookStatus = bookStatus;
+	}
+
+	public Status getBookStatus() {
+		return bookStatus;
+	}
+
+	public void setBookStatus(Status bookStatus) {
+		this.bookStatus = bookStatus;
+	}
+
+	@Override
+	public double totalPrice() {
+		return bookStatus == Status.NEW ? price * quantity : price * quantity * 0.5;
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("%s | %s", 
+					super.toString(),
+					bookStatus
+				);
+	}
+}

@@ -1,0 +1,26 @@
+package week9.lesson6;
+
+import java.time.LocalDate;
+
+public class ReferenceBook extends Book {
+	private double tax;
+
+	public ReferenceBook(String code, LocalDate dayImport, double price,
+			int quantity, String publisher, double tax) {
+		super(code, dayImport, price, quantity, publisher);
+		this.tax = tax;
+	}
+
+	public double getTax() {
+		return tax;
+	}
+
+	public void setTax(double tax) {
+		if (tax < 0) {
+			throw new IllegalArgumentException("Tax must be greater than 0");
+		}
+		this.tax = tax;
+	}
+	
+	
+}
