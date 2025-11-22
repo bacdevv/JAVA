@@ -5,6 +5,7 @@
 		<item key="replaceBarOpen" value="false"/>
 		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="NhanVienVanPhong"/>
 			<item value="soLuong"/>
 			<item value="donGia"/>
 		</list>
@@ -17,5 +18,9 @@
 		</list>
 		<list key="replacehistory">
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="788"/>
+		<item key="DIALOG_Y_ORIGIN" value="425"/>
 	</section>
 </section>

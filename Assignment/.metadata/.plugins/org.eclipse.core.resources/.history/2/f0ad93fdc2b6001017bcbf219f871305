@@ -1,5 +1,0 @@
-package week9.lesson6;
-
-public class BookList implements IBookSetting {
-
-}

@@ -1,12 +1,14 @@
 applyBackground=true
 approved.defs.file.last.changed.time=1693315978000
+codetogether.announce.displayed=true
 configurationInstallLocation=/C\:/Users/vietbac/eclipse/java-2025-09/eclipse/
+ct.reengagement.display.after=1773112134578
 ct.upsell.display.after=1762141631289
 eclipse.preferences.version=1
 iconcolormode=primary
 includeThemingInOomph=false
-last.download.attempt.time=1761961645635
-lastConfiguration=1761961631418
+last.download.attempt.time=1763772278579
+lastConfiguration=1763772264417
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Dark Windows 11

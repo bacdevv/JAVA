@@ -48,7 +48,7 @@ public interface IBookSetting {
 	
 	//Thống kê theo điều kiện
 	int getQuantityTotal(int year);
-	int getUnitPriceAverage(int year);
+	double getUnitPriceAverage(int year);
 	
 	//Gom nhóm theo kiểu và đếm số lượng trong từng nhóm
 	Map<String, Integer> groupByTypeAndCounting();

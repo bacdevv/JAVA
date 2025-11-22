@@ -32,7 +32,7 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="746"/>
+		<item key="DIALOG_X_ORIGIN" value="459"/>
 		<item key="DIALOG_Y_ORIGIN" value="122"/>
 		<item key="DIALOG_WIDTH" value="571"/>
 		<item key="DIALOG_HEIGHT" value="656"/>
@@ -54,7 +54,7 @@
 		<item key="height" value="400"/>
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="769"/>
+		<item key="DIALOG_X_ORIGIN" value="505"/>
 		<item key="DIALOG_Y_ORIGIN" value="271"/>
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="500"/>
@@ -73,7 +73,7 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="772"/>
+		<item key="DIALOG_X_ORIGIN" value="512"/>
 		<item key="DIALOG_Y_ORIGIN" value="93"/>
 		<item key="DIALOG_WIDTH" value="518"/>
 		<item key="DIALOG_HEIGHT" value="700"/>
@@ -87,13 +87,19 @@
 		<item key="InstanceOf" value="false"/>
 		<item key="Blocks" value="false"/>
 		<item key="Objects.equals &amp; Objects.hash" value="true"/>
+		<item key="LimitElements" value="false"/>
+		<item key="IgnoreDefault" value="true"/>
+		<item key="StringStyle" value="0"/>
+		<item key="LimitValue" value="10"/>
+		<item key="SkipNull" value="false"/>
+		<item key="ToStringTemplateSelected" value="0"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item key="SortOrdering" value="false"/>
 		<item key="RemoveFinal" value="false"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="766"/>
+		<item key="DIALOG_X_ORIGIN" value="500"/>
 		<item key="DIALOG_Y_ORIGIN" value="81"/>
 		<item key="DIALOG_WIDTH" value="530"/>
 		<item key="DIALOG_HEIGHT" value="718"/>
@@ -152,5 +158,17 @@
 		<item key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT" value="360"/>
 		<item key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+	</section>
+	<section name="DialogBounds_GenerateToStringDialog">
+		<item key="DIALOG_X_ORIGIN" value="517"/>
+		<item key="DIALOG_Y_ORIGIN" value="87"/>
+		<item key="DIALOG_WIDTH" value="513"/>
+		<item key="DIALOG_HEIGHT" value="709"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="JavaSearchPage">
+		<item key="CASE_SENSITIVE" value="false"/>
+		<item key="INCLUDE_MASK" value="11"/>
+		<item key="HISTORY_SIZE" value="0"/>
 	</section>
 </section>
